@@ -28,6 +28,14 @@ Route::get('/jawaban/{pertanyaan_id}','JawabanController@index');
 
 Route::post('/jawaban/{pertanyaan_id}','JawabanController@store');
 
+Route::get('/pertanyaan/{pertanyaan_id}','PertanyaanController@show');
+
+Route::get('/pertanyaan/{pertanyaan_id}/edit','PertanyaanController@edit');
+
+Route::put('/pertanyaan/{pertanyaan_id}','PertanyaanController@update');
+
+Route::delete('/pertanyaan/{pertanyaan_id}','PertanyaanController@destroy');
+
 
 
 
