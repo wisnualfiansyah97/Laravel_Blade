@@ -1,6 +1,7 @@
 @extends('adminlte/master')
 
 @section('content')
+    <div class="ml-3">
     <br><h1 style="text-align:'center;'">DAFTAR PERTANYAAN</h1><br>
     <div class= "col-sm-12 d-flex justify-content-end mb-3">
         <a href="/pertanyaan/create" class="btn btn-primary"> New Pertanyaan </a>  
@@ -37,4 +38,5 @@
             @endforeach
         </tbody>
         </table>
+    </div>
 @endsection
